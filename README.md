@@ -51,16 +51,16 @@ Data preparation and ETL were handled upstream in SQL to keep the model lean and
 
 Customer feedback required separate processing. Reviews and social media comments were analyzed using Python to derive sentiment labels and key themes and the results were saved and joined back with behavioral and conversion data for analysis.
 
-You can find the SQL queries I used here:
+You can find the SQL queries I used here: [SQL Queries](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/tree/main/SQL%20Queries)
 
-### Sentiment analysis using Python
+### 🐍Sentiment analysis using Python
 *Skip if you dont want to see technical details* [Go to Next section](#dashboard-highlights)
 
 For sentiment analysis, I used Python since this wasn’t something that could be handled cleanly in SQL or DAX. I’m still a beginner with Python, so this part of the project involved a lot of trial and error. My basic programming background from college helped me follow the logic and debug issues, even when I didn’t fully understand everything at first.
 
-I started with VADER(a pre-trained model) because it’s commonly used for reviews and social media text and was easy to get running. While it worked technically, the results didn’t feel right. Many reviews were labeled positive or neutral even when the wording clearly suggested dissatisfaction. After manually checking a sample of outputs, it was clear the model was missing context and nuance.
+I started with **VADER**(a pre-trained model) because it’s commonly used for reviews and social media text and was easy to get running. While it worked technically, the results didn’t feel right. Many reviews were labeled positive or neutral even when the wording clearly suggested dissatisfaction. After manually checking a sample of outputs, it was clear the model was missing context and nuance.
 
-Since I wasn’t confident using those results, I went back and explored other options. I eventually switched to a RoBERTa-based sentiment model(another pre-trained model from 'Hugging Face'), which produced outputs that aligned much better with what the reviews were actually saying. The difference was noticeable, especially for longer comments and feedback that wasn’t explicitly positive or negative.
+Since I wasn’t confident using those results, I went back and explored other options. I eventually switched to a **RoBERTa**-based sentiment model(another pre-trained model from 'Hugging Face'), which produced outputs that aligned much better with what the reviews were actually saying. The difference was noticeable, especially for longer comments and feedback that wasn’t explicitly positive or negative.
 
 This part of the project took time, but it was a useful learning experience. More importantly, it reinforced the need to sanity-check model outputs instead of assuming they are correct just because they run without errors. The final sentiment results were saved and used in the analysis alongside conversion and engagement data.
 
