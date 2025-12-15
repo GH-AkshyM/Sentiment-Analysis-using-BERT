@@ -54,6 +54,7 @@ Customer feedback required separate processing. Reviews and social media comment
 You can find the SQL queries I used here:
 
 ### Sentiment analysis using Python
+*Skip if you dont want to see technical details* [Go to Next section](#dashboard-highlights)
 
 For sentiment analysis, I used Python since this wasn’t something that could be handled cleanly in SQL or DAX. I’m still a beginner with Python, so this part of the project involved a lot of trial and error. My basic programming background from college helped me follow the logic and debug issues, even when I didn’t fully understand everything at first.
 
@@ -76,10 +77,11 @@ The IronPlay Analytics Dashboard is structured around three questions:
 
 Each page answers one question clearly, without mixing signals.
 
+![Dashboard](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/Dashboard.gif)
 
 
 ## 💡Key Findings
-### test
+
 ## Year-over-Year Performance Overview
 
 ### 2023: Strong Baseline
@@ -94,7 +96,6 @@ In 2024, performance declined sharply across multiple areas:
 - Engagement metrics (likes, clicks) declined faster than traffic volume
 
 The most notable change was increased drop-off at the checkout stage, indicating friction after purchase intent was already established. At the same time, engagement quality deteriorated, suggesting that marketing campaigns were driving weaker or less relevant traffic.
-
 This was not a seasonal dip. The decline was consistent across months and products, pointing to a structural issue rather than short-term volatility.
 
 ### 2025: Stabilization, Not Recovery
@@ -104,19 +105,8 @@ In 2025, metrics stopped deteriorating, but they did not return to 2023 levels:
 - Engagement collapsed further, especially likes and clicks
 
 Purchases in 2025 appear to be driven by high-intent users and a small set of strong products, rather than by broad marketing effectiveness. While the funnel became more stable, the absence of engagement limits growth potential.
-<details>
-<summary>Journey – Yearly Views</summary>
 
-**2023**
-![Journey 2023](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/2023%20conversion.png)
 
-**2024**
-![Journey 2024](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/2024%20conversion.png)
-
-**2025**
-![Journey 2025](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/2025%20conversion.png)
-
-</details>
 
 ## Conversion & Funnel Insights
 
@@ -137,7 +127,9 @@ Product conversion analysis shows a clear shift over time:
 
 In 2025, products like Hockey Stick, Climbing Rope, and Surfboard carry a disproportionate share of conversions. While these products perform well, this concentration increases business risk and limits scalability.
 
-Mid-priced products consistently show stronger conversion than both low and high price extremes, indicating a clear pricing sweet spot.
+Mid-priced products consistently show stronger conversion than both low and high price extremes, indicating a clear pricing sweet spot. However High priced products had better conversion rate comparatively.
+
+![Coversion](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/Conversion.gif)
 
 ## Engagement Trends (Root Cause)
 
@@ -150,71 +142,63 @@ The decline in engagement happened faster than the decline in revenue. This indi
 
 In practical terms, IronPlay is currently selling **despite** marketing engagement, not because of it.
 
-## Key Takeaways
+![Views Clicks Likes](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/Views%20clicks%20likes.gif)
 
-- 2023 was the strongest operational baseline
-- 2024 introduced structural issues, especially at checkout and in engagement quality
-- 2025 shows stabilization, but not recovery
-- The core problem is funnel efficiency and experience, not traffic volume
-- Conversion is increasingly dependent on a small set of products
-- Engagement decay limits future growth even if conversion stabilizes
-- Customer sentiment supports product quality but highlights experience gaps
-
-
-### test 
 ## 🛠Recommendations
 
-## Recommendations
 
-### 1. Fix Checkout Before Spending Another Dollar on Traffic
-The data consistently shows that intent is not the problem — users reach product pages and enter checkout, but a large share fail to complete purchases. This issue emerged in 2024 and remains unresolved in 2025.
+### 1. Fix Checkout First — That’s Where Money Is Being Lost
+Users are clearly interested in the products. They reach product pages and even start checkout, but many don’t finish. This drop appears in 2024 and doesn’t fully recover in 2025, which tells us this isn’t a one-off issue.
 
-Before scaling marketing efforts, IronPlay should audit the checkout experience end-to-end, focusing on pricing transparency, shipping clarity, payment options, and friction points across devices. Improving checkout completion will deliver immediate gains because it acts on users who have already demonstrated purchase intent.
-
----
-
-### 2. Treat Engagement as a Leading Indicator, Not a Vanity Metric
-Engagement collapsed faster than revenue between 2023 and 2025, signaling declining relevance well before conversion stabilized. Likes and clicks are no longer predictive of sales, which means current campaigns are not building demand.
-
-IronPlay should reset its engagement strategy by prioritizing fewer, higher-quality campaigns tied to specific products and use cases. Engagement metrics should be monitored as early warning signals, not success metrics, and poor-performing content should be retired quickly instead of optimized incrementally.
-
----
-
-### 3. Double Down on Proven Products — but Reduce Concentration Risk
-By 2025, conversion performance became heavily concentrated in a small set of products. While this keeps revenue stable in the short term, it increases dependency risk and limits scalability.
-
-High-performing products should be used as anchors for growth through bundling, cross-selling, and focused campaigns. At the same time, underperforming but high-interest products should be selectively tested with improved product pages, pricing experiments, or social proof rather than being treated as lost causes.
-
----
-
-### 4. Align Pricing Strategy to the Mid-Range Sweet Spot
-Across all years, mid-priced products consistently outperform low and high price extremes in conversion. This pattern holds even as overall performance declines.
-
-Instead of aggressive discounting or premium expansion, IronPlay should optimize around its strongest price band. Pricing tests, bundles, and promotions should be designed to pull users toward this range, where confidence and perceived value are highest.
-
----
-
-### 5. Shift from Global Campaigns to Geo-Specific Execution
-Conversion performance varies significantly by country, and leadership changes year over year. This indicates that a single global strategy is inefficient.
-
-IronPlay should focus marketing and merchandising efforts on consistently high-converting regions and adapt messaging, pricing, or fulfillment strategies locally. Geo-specific execution offers higher ROI than increasing overall reach.
-
----
-
-### 6. Use Customer Feedback as a Diagnostic Layer, Not Just Social Proof
-Sentiment analysis and ratings show that customers generally like the products, which rules out product quality as the primary issue. This makes customer feedback more valuable as a diagnostic tool than as a promotional asset.
-
-Recurring themes in feedback should be reviewed alongside funnel drop-offs to identify experience-related friction. Closing this loop will help prioritize fixes that actually improve conversion rather than surface-level optimizations.
-
----
-
-### 7. Measure Recovery Against 2023, Not Year-over-Year Noise
-Small improvements in 2025 may appear positive in isolation, but they remain well below the 2023 baseline. Treating stabilization as recovery risks masking unresolved issues.
-
-All future performance should be benchmarked against 2023 funnel health, engagement quality, and product mix. Growth should only be declared once those benchmarks are meaningfully exceeded.
+Before spending more on ads or traffic, IronPlay should focus on cleaning up the checkout experience. This includes reducing steps, making shipping and pricing clearer upfront, and ensuring the mobile checkout experience is smooth. Improving checkout completion is the fastest way to recover lost revenue because it works on users who already want to buy.
 
 
-### Customer Experience
-- Address delivery-related complaints
-- Improve clarity around pricing and shipping timelines
-- Monitor customer feedback regularly instead of ad-hoc reviews
+### 2. Stop Chasing Engagement Volume — Focus on Useful Signals
+Engagement didn’t just decline; it collapsed faster than revenue. Likes and clicks fell sharply between 2023 and 2025, but sales didn’t fall at the same pace. This means engagement metrics are no longer good indicators of demand.
+
+Instead of trying to revive engagement numbers across the board, IronPlay should use engagement as a warning signal. If content or campaigns don’t show early interaction, they should be paused quickly rather than refined endlessly. The goal should be relevance, not reach.
+
+
+### 3. Use High-Selling Products as Entry Points, Not End Points
+By 2025, conversion is driven by a small group of products. Items like **Fitness Tracker**, while not always the highest in conversion rate, show strong and consistent demand and volume. These products bring users in.
+
+Rather than pushing these products alone, IronPlay should use them as entry points for bundles and combo offers. For example, pairing a Fitness Tracker with accessories or complementary fitness gear can increase order value while reducing dependency on single-item purchases.
+
+
+### 4. Compare Progress Against 2023, Not Short-Term Improvements
+The slight improvement in 2025 can easily be mistaken for recovery, but the business is still operating below its 2023 baseline. Treating stabilization as success risks ignoring unresolved issues.
+
+Any future improvements should be measured against 2023 funnel performance, engagement quality, and product spread. Real recovery only happens when those levels are reached again — and then exceeded.
+
+
+## Customer Feedback: Practical Fixes
+#### Positive
+![Postive](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/Postive%20Word%20cloud.png)
+
+#### Negative
+![Negative](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/Negative%20Word%20cloud.png)
+
+Customer reviews suggest that people generally trust IronPlay’s products. When things go right, feedback around quality and packaging is strong. The problems start when execution breaks down. Complaints about late delivery, poor experience, service issues, and “not worth the money” point to operational gaps rather than product flaws.
+
+These issues matter because they show up at the worst possible time — right when customers are deciding whether to complete a purchase or come back again.
+
+### What to Fix, Practically
+
+- **Be stricter with products that keep causing problems**  
+  A small number of repeat issues can undo a lot of good work. Products that show up frequently in negative reviews should go through tighter quality checks before they’re shipped. Consistency matters more than perfection.
+
+- **Choose delivery reliability over the cheapest option**  
+  Delivery complaints come up often enough to hurt trust. It’s better to work with fewer, more reliable delivery partners than to keep switching based on cost. Missing delivery expectations does more damage than shipping a day later with clear communication.
+
+- **Train support to actually solve problems**  
+  Fast replies don’t help if customers still feel stuck. Support teams should be able to issue refunds, replacements, or credits without unnecessary back-and-forth. Resolution builds trust; speed alone doesn’t.
+
+- **Stop promoting products that aren’t ready**  
+  If a product has ongoing delivery or performance issues, pushing more traffic to it only makes things worse. Fix the problem first, then scale it again.
+
+- **Use strong products to help others — but only after fixes**  
+  Products like Fitness Tracker already have customer trust. They can help lift other items through bundles or combos, but only once basic quality and delivery issues are under control. Otherwise, bundling just spreads dissatisfaction.
+
+### Bottom Line
+IronPlay doesn’t have a messaging problem. It has an execution problem. Tightening quality checks, improving delivery reliability, and empowering customer support will do more for conversion than any new campaign, especially at checkout.
+
