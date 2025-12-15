@@ -1,5 +1,19 @@
 # Sentiment-Analysis-using-BERT
 
+## 📚Table of Contents:
+
+|**No.**  |**Section**|
+|:-: | :------------ | 
+|1.   |  [Overview](#overview)                              |
+|2.   |  [Business Context](#business-context)                              |
+|3.   |  [Objectives](#objectives)                              |
+|4.   |  [Data Overview](#data-overview)                              |
+|5.   |  [Dashboard Highlights](#dashboard-highlights)                              |
+|6.   |  [Key Findings](#key-findings)                              |
+|7.   |  [Recommendations](#recommendations)                              |
+
+
+
 ## ↪️Overview:
 IronPlay is an online retail business that experienced a decline in customer engagement and conversion rates despite increased spending on digital marketing. The purpose of this project is to analyze customer behavior, marketing performance, and customer feedback to understand what is going wrong and where improvements are needed.
 
@@ -43,6 +57,61 @@ The analysis is based on:
 - Customer reviews and social media comments
 
 The dataset is anonymized and structured to reflect a realistic e-commerce setup.
+
+You can find the data set here: [.bak file]()
+
+Follow these steps if you're going to recreate a report using the dataset:
+<details>
+<summary><strong>How to load the Dataset in to your SQL Server.</strong></summary>
+
+### Step 1: Copy the `.bak` file to the SQL Server backup folder
+Copy the `.bak` file into SQL Server’s default backup directory.  
+This avoids permission and path issues during restore.
+
+Common location:
+C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup\
+
+
+### Step 2: Open SQL Server Management Studio (SSMS)
+- Launch **SSMS**
+- Connect to your SQL Server instance
+
+### Step 3: Start database restore
+- In **Object Explorer**, right-click **Databases**
+- Click **Restore Database…**
+
+### Step 4: Select the backup file
+- Under **Source**, choose **Device**
+- Click **… (Browse)** → **Add**
+- Select the `.bak` file from the Backup folder
+- Click **OK**
+
+
+### Step 5: Confirm database name
+- Under **Destination**, confirm or change the **Database name**
+
+
+
+### Step 6: Configure restore options
+- Go to the **Options** page
+- Check:
+  - ✅ **Overwrite the existing database (WITH REPLACE)**
+  - ✅ **Close existing connections**
+
+
+
+### Step 7: Restore
+- Click **OK**
+- Wait for the success message
+
+
+### Step 8: Verify
+- Refresh **Databases**
+- Expand the restored database
+- Check tables under **Tables**
+
+</details>
+
 
 ## 📊Approach
 
@@ -205,5 +274,8 @@ These issues matter because they show up at the worst possible time — right wh
 - **Use strong products to help other products — but only after fixes**  
   Products like Fitness Tracker already have customer trust. They can help lift other items through bundles or combos, but only after basic quality and delivery issues are under control. Otherwise, bundling will be counter productive.
 
+## You can explore the report [here](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/PBIX%20file/Sentiment%20Analysis%20Using%20BERT..pbix). Download and open using Power BI Desktop. 
+
+## Check out some of my other works: 
 
 
