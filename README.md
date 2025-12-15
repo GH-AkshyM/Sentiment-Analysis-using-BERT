@@ -64,7 +64,13 @@ Since I wasn’t confident using those results, I went back and explored other o
 
 This part of the project took time, but it was a useful learning experience. More importantly, it reinforced the need to sanity-check model outputs instead of assuming they are correct just because they run without errors. The final sentiment results were saved and used in the analysis alongside conversion and engagement data.
 
-You can find the python scripts here:
+##### To point out an example. Here is a side by side comparison:
+###### Vader
+![Vader](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Python%20Scripts/Vader%20Output.png)
+###### RoBERTa
+![RoBERTa](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Python%20Scripts/RoBERTa%20Output.png)
+
+You can find the python scripts here: [Python Scripts](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/tree/main/Python%20Scripts)
 
 ## 🖥Dashboard Highlights:
 The IronPlay Analytics Dashboard is structured around three questions:
@@ -116,7 +122,7 @@ The main breakdown occurs at checkout:
 - Checkout retention dropped sharply in 2024
 - Partial recovery in 2025, but still below 2023 levels
 
-This suggests that pricing, checkout UX, shipping clarity, or trust signals are likely contributors. Importantly, this confirms the issue is **funnel efficiency**, not traffic volume.
+The problem isn’t traffic — it’s friction in the buying experience.
 
 ## Product-Level Behavior
 
@@ -187,18 +193,17 @@ These issues matter because they show up at the worst possible time — right wh
 - **Be stricter with products that keep causing problems**  
   A small number of repeat issues can undo a lot of good work. Products that show up frequently in negative reviews should go through tighter quality checks before they’re shipped. Consistency matters more than perfection.
 
-- **Choose delivery reliability over the cheapest option**  
+- **Choose a reliable delivery partner over the cheapest option**  
   Delivery complaints come up often enough to hurt trust. It’s better to work with fewer, more reliable delivery partners than to keep switching based on cost. Missing delivery expectations does more damage than shipping a day later with clear communication.
 
-- **Train support to actually solve problems**  
+- **Train support staff to actually solve problems**  
   Fast replies don’t help if customers still feel stuck. Support teams should be able to issue refunds, replacements, or credits without unnecessary back-and-forth. Resolution builds trust; speed alone doesn’t.
 
 - **Stop promoting products that aren’t ready**  
   If a product has ongoing delivery or performance issues, pushing more traffic to it only makes things worse. Fix the problem first, then scale it again.
 
-- **Use strong products to help others — but only after fixes**  
-  Products like Fitness Tracker already have customer trust. They can help lift other items through bundles or combos, but only once basic quality and delivery issues are under control. Otherwise, bundling just spreads dissatisfaction.
+- **Use strong products to help other products — but only after fixes**  
+  Products like Fitness Tracker already have customer trust. They can help lift other items through bundles or combos, but only after basic quality and delivery issues are under control. Otherwise, bundling will be counter productive.
 
-### Bottom Line
-IronPlay doesn’t have a messaging problem. It has an execution problem. Tightening quality checks, improving delivery reliability, and empowering customer support will do more for conversion than any new campaign, especially at checkout.
+
 
