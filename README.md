@@ -22,7 +22,9 @@ The focus of this analysis is on:
 - Customer engagement across marketing content
 - Customer feedback and sentiment
 
-*I hope you will enjoy this read. Thank you for stopping by!!*
+*I hope you will enjoy this read. Thanks for stopping by!!*
+
+[(Back to top)](#table-of-contents)
 
 ## Business Context:
 Over recent months, IronPlay observed a steady decline in user interaction across both its website and marketing campaigns. Fewer visitors were progressing through the purchase journey and completing transactions, leading to a noticeable drop in conversion rates.
@@ -30,6 +32,8 @@ Over recent months, IronPlay observed a steady decline in user interaction acros
 At the same time, marketing spend continued to increase, but this additional investment did not translate into corresponding revenue growth, raising concerns about traffic quality and campaign effectiveness.
 
 In parallel, IronPlay accumulated a large volume of customer reviews and social media comments. While this feedback contained valuable signals about customer experience, it was not being analyzed in a structured or consistent way, making it difficult to identify recurring issues or priorities.
+
+[(Back to top)](#table-of-contents)
 
 ## 🎯Objectives:
 
@@ -48,6 +52,7 @@ In parallel, IronPlay accumulated a large volume of customer reviews and social 
 - Identify recurring positive and negative themes
 - Link feedback patterns to engagement and conversion issues
 
+[(Back to top)](#table-of-contents)
 
 ## 🗂Data Overview
 The analysis is based on:
@@ -113,6 +118,8 @@ C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup\
 </details>
 
 
+[(Back to top)](#table-of-contents)
+
 ## 📊Approach
 
 
@@ -141,6 +148,8 @@ This part of the project took time, but it was a useful learning experience. Mor
 
 You can find the python scripts here: [Python Scripts](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/tree/main/Python%20Scripts)
 
+[(Back to top)](#table-of-contents)
+
 ## 🖥Dashboard Highlights:
 The IronPlay Analytics Dashboard is structured around three questions:
 
@@ -154,6 +163,8 @@ Each page answers one question clearly, without mixing signals.
 
 ![Dashboard](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/Dashboard.gif)
 
+
+[(Back to top)](#table-of-contents)
 
 ## 💡Key Findings
 
@@ -219,6 +230,8 @@ In practical terms, IronPlay is currently selling **despite** marketing engageme
 
 ![Views Clicks Likes](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/Views%20clicks%20likes.gif)
 
+[(Back to top)](#table-of-contents)
+
 ## 🛠Recommendations
 
 
@@ -245,6 +258,7 @@ The slight improvement in 2025 can easily be mistaken for recovery, but the busi
 
 Any future improvements should be measured against 2023 funnel performance, engagement quality, and product spread. Real recovery only happens when those levels are reached again — and then exceeded.
 
+[(Back to top)](#table-of-contents)
 
 ## Customer Feedback: Practical Fixes
 #### Positive
@@ -273,6 +287,8 @@ These issues matter because they show up at the worst possible time — right wh
 
 - **Use strong products to help other products — but only after fixes**  
   Products like Fitness Tracker already have customer trust. They can help lift other items through bundles or combos, but only after basic quality and delivery issues are under control. Otherwise, bundling will be counter productive.
+
+[(Back to top)](#table-of-contents)
 
 ## You can explore the report [here](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/PBIX%20file/Sentiment%20Analysis%20Using%20BERT..pbix). Download and open using Power BI Desktop. 
 
