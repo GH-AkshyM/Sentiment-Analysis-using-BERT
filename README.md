@@ -63,11 +63,11 @@ The analysis is based on:
 
 The dataset is anonymized and structured to reflect a realistic e-commerce setup.
 
-You can find the data set here: [.bak file]()
+You can find the dataset here: [.bak file]()
 
-Follow these steps if you're going to recreate a report using the dataset:
+Follow these steps if you're going to use the dataset:
 <details>
-<summary><strong>How to load the Dataset in to your SQL Server.</strong></summary>
+<summary><strong>Expand by clicking here</strong></summary>
 
 ### Step 1: Copy the `.bak` file to the SQL Server backup folder
 Copy the `.bak` file into SQL Server’s default backup directory.  
@@ -161,7 +161,7 @@ The IronPlay Analytics Dashboard is structured around three questions:
 
 Each page answers one question clearly, without mixing signals.
 
-![Dashboard](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/Dashboard.gif)
+![Dashboard](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Screenshots/Dashboard.gif)
 
 
 [(Back to top)](#table-of-contents)
@@ -215,7 +215,7 @@ In 2025, products like Hockey Stick, Climbing Rope, and Surfboard carry a dispro
 
 Mid-priced products consistently show stronger conversion than both low and high price extremes, indicating a clear pricing sweet spot. However High priced products had better conversion rate comparatively.
 
-![Coversion](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/Conversion.gif)
+![Conversion](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Screenshots/Conversion.gif)
 
 ## Engagement Trends (Root Cause)
 
@@ -228,7 +228,7 @@ The decline in engagement happened faster than the decline in revenue. This indi
 
 In practical terms, IronPlay is currently selling **despite** marketing engagement, not because of it.
 
-![Views Clicks Likes](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/Views%20clicks%20likes.gif)
+![Views Clicks Likes](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Screenshots/Views%20clicks%20likes.gif)
 
 [(Back to top)](#table-of-contents)
 
@@ -262,10 +262,10 @@ Any future improvements should be measured against 2023 funnel performance, enga
 
 ## Customer Feedback: Practical Fixes
 #### Positive
-![Postive](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/Postive%20Word%20cloud.png)
+![Postive](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Screenshots/Postive%20word%20cloud.png)
 
 #### Negative
-![Negative](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Schreenshots/Negative%20Word%20cloud.png)
+![Negative](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/Screenshots/Negative%20word%20cloud.png)
 
 Customer reviews suggest that people generally trust IronPlay’s products. When things go right, feedback around quality and packaging is strong. The problems start when execution breaks down. Complaints about late delivery, poor experience, service issues, and “not worth the money” point to operational gaps rather than product flaws.
 
