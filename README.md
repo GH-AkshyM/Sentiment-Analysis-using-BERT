@@ -26,7 +26,7 @@ The focus of this analysis is on:
 
 [(Back to top)](#table-of-contents)
 
-## Business Context:
+## 📌Business Context:
 Over recent months, IronPlay observed a steady decline in user interaction across both its website and marketing campaigns. Fewer visitors were progressing through the purchase journey and completing transactions, leading to a noticeable drop in conversion rates.
 
 At the same time, marketing spend continued to increase, but this additional investment did not translate into corresponding revenue growth, raising concerns about traffic quality and campaign effectiveness.
