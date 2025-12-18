@@ -293,5 +293,8 @@ These issues matter because they show up at the worst possible time — right wh
 ## You can explore the report [here](https://github.com/GH-AkshyM/Sentiment-Analysis-using-BERT/blob/main/PBIX%20file/Sentiment%20Analysis%20Using%20BERT..pbix). Download and open using Power BI Desktop. 
 
 ## Check out some of my other works: 
+- 📦 **[Revenue Health Dashboard](https://github.com/GH-AkshyM/Revenue-Health-Dashboard/tree/main)** – Executive Revenue Dashboard for Higher-Ups, Simplyfy monthly reports.  
+- 🧠 **[HR Attrition Analytics with Dataflow Gen2](https://github.com/GH-AkshyM/Hr-Attrition-Analytics-Dashboard)** – A Clean Minimalistic look into Attrition Analytics with Insights Hard-coded.  
+- 🔄 **[E-commerce Cohort Analytics Dashboard with Lakehouse on MS Fabric](https://github.com/GH-AkshyM/Cohort-Analytics-Dashboard-with-Lakehouse-on-MS-Fabric/tree/main)** – Cohort-based retention and revenue analytics using DirectQuery.  
 
 
